@@ -16,6 +16,7 @@ public class FoodRequestor {
 		String cont = scan.next();
 		Food newFood = new Food();
 		newFood.enterFood(food,cont);
+		newFood.enterFoodDoWhile();
 			
 	}
 }
